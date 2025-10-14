@@ -56,15 +56,16 @@ int main()
     cout<<"Logical NOT(!obj):"<<!obj<<endl;
     Demo bitwise = ~obj;
     bitwise.display ("Bitwise NOT (~obj):");
-    Demo preinc = -obj;
+    Demo preinc = ++obj;
     preinc.display ("Prefix increment (++obj):");
-    Demo postinc = -obj;
+    Demo postinc = obj++;
     postinc.display ("Postfix increment (obj++):");
     obj.display("After postfix increment:");
-    Demo predec = -obj;
+    Demo predec = --obj;
     predec.display ("Prefix increment (--obj):");
-    Demo postdec = -obj;
+    Demo postdec = obj--;
     postdec.display ("Postfix increment (obj--):");
     obj.display("After postfix idecrement:");
     return 0;
+
 }
