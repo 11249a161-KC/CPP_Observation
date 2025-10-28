@@ -59,7 +59,7 @@ int main() {
     Book book1("1984", "George Orwell", 328);
     Book book2("Brave New World", "Aldous Huxley", 288);
 
-    cout << "Before assignment:" << endl;
+    cout << "Before assignment:" << endl; 
     book1.display();
     book2.display();
 
